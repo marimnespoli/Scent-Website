@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scenté — Contact Us</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Style+Script&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ======================== NAVBAR ======================== -->
+  <header class="navbar">
+    <div class="nav-top-bar"></div>
+    <div class="nav-main">
+      <nav class="nav-links nav-left">
+        <a href="index.html#about">ABOUT</a>
+        <a href="index.html#collection">SHOP</a>
+      </nav>
+      <a href="index.html" class="nav-logo">Scenté</a>
+      <nav class="nav-links nav-right">
+        <a href="index.html#collection">SEARCH</a>
+        <a href="contact.html">CONTACT US</a>
+        <button class="nav-icon-btn" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button class="nav-icon-btn" aria-label="Cart">
+          <img src="http://localhost:3845/assets/fbdf176155204ea133a0723d95080007fca0fe8a.svg" alt="Cart">
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======================== CONTACT MAIN ======================== -->
+  <main class="contact-main">
+
+    <!-- Form Section -->
+    <section class="contact-form-section">
+      <h1 class="contact-title">CONTACT US</h1>
+      <form>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="name">Your name</label>
+            <input type="text" id="name" class="form-input" placeholder="Your Full name">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email adress</label>
+            <input type="email" id="email" class="form-input" placeholder="Your email adress">
+          </div>
+        </div>
+        <div class="form-group full-width">
+          <label class="form-label" for="message">Message</label>
+          <textarea id="message" class="form-textarea" placeholder="Write something..."></textarea>
+        </div>
+        <button type="submit" class="btn-send">Send message</button>
+      </form>
+    </section>
+
+    <!-- Image Section -->
+    <section class="contact-image-section">
+      <img
+        src="http://localhost:3845/assets/df61f1279ab7e3c32fcf7daadf4b498d48e5f053.png"
+        alt="Fall candle with autumn leaves"
+        class="contact-image"
+      >
+    </section>
+
+  </main>
+
+</body>
+</html>
